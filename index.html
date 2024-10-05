@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual Birthday Card Board</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Content of your web application goes here -->
+  <div class="container">
+    <h1 class="formHeader">Birthday Wishes!</h1>
+    <form id="cardForm">
+      <label class="inputLabels" for="nameInput" id="nameLabel">Name of recipient:</label><br>
+      <input class="userInput" type="text" id="nameInput" placeholder="(Required)" required></input>
+      <br>
+
+      <label class="inputLabels" for="fromInput">From:</label><br>
+      <input class="userInput" type="text" id="fromInput" placeholder="(Optional)"></input>
+      <br>
+
+      <label class="inputLabels" for="message" id="flairMessage">Personal Message:</label><br>
+      <input class="userInput" type="text" id="message" placeholder="(Required)" required></input>
+      <br>
+
+      <label class="inputLabels" for="flair" id="giffy">Personalize with an image or GIF (URL):</label><br>
+      <input class="userInput" type="url" id="flair" placeholder="(required)" required></input>
+      <br>
+
+      <button class="submitBtn" type="submit" id="submit">Submit</button>
+    </form>
+  </div>
+
+  <div class="cardContainer" id="cardContainer">
+
+
+  </div>
+
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+body {
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F193973.png&f=1&nofb=1&ipt=14533bb9a13ddccaf1384a76c61cb000f534faa812ab6a330686ca2acaa1f572&ipo=images);
+
+}
+
+.container {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.cardContainer {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 20px;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  height: 550px;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.cardFlair {
+  width: 380px;
+  height: auto;
+  max-height: 390px;
+}
+
+.formHeader {
+  text-align: center;
+  margin: 10px;
+ 
+}
+
+.featureToggle {
+  border: 3px solid goldenrod;
+  background-color: rgba(245, 115, 238, 0.8);
+  width: 397.5px;
+  height: 547.5px;
+}
+
+.deleteButton {
+  width: 60px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: red;
+  color: black;
+  margin: 5px;
+  margin: 9px;
+}
+
+.featureButton {
+  width: 60px;
+  height: 30px;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: rgb(240, 193, 75);
+  color: black;
+  margin: 5px;
+}
+
+.userInput {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-top: 1px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.inputLabels {
+  font-size: 1.1rem;
+
+}
+
+.submitBtn {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;  
+}
