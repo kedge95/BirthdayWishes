@@ -9,6 +9,14 @@ const cardContainer = document.getElementById("cardContainer");
 const errors = document.getElementById("errorMessage");
 let errorCounter = 0
 
+function initialDelete () {
+   cardContainer.removeChild(card);
+};
+
+function initialFeature () {
+  card.classList.toggle("featureToggle");
+};
+
 function makeCard (name, message, flair) {
   const card = document.createElement("div");
   card.className= "card"
