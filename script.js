@@ -8,13 +8,18 @@ const submit = document.getElementById("submit");
 const cardContainer = document.getElementById("cardContainer");
 const errors = document.getElementById("errorMessage");
 let errorCounter = 0
+let parent = ""
 
 function initialDelete () {
-   cardContainer.removeChild(card);
+   parent = event.target.parentElement
+   cardContainer.removeChild(parent);
+   console.log(parent)
 };
 
 function initialFeature () {
-  card.classList.toggle("featureToggle");
+   parent = event.target.parentElement
+   parent.classList.toggle("featureToggle");
+   console.log(parent)
 };
 
 function makeCard (name, message, flair) {
